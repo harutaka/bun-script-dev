@@ -1,6 +1,6 @@
 {
   "name": "bun-script-dev",
-  "module": "src/index.ts",
+  "module": "src/sample.ts",
   "type": "module",
   "private": true,
   "scripts": {

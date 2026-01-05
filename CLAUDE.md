@@ -1,5 +1,30 @@
+# CLAUDE.md
 
-Default to using Bun instead of Node.js.
+## 概要
+
+これはTypeScriptでシェルスクリプトを書くためのBun開発環境です。このプロジェクトはBunのShell APIを使用して、外部依存関係なしにWindows、Linux、macOSで動作するクロスプラットフォームのシェルスクリプトを作成します。
+
+## コマンド
+
+### スクリプトの実行
+```bash
+# サンプルスクリプトを実行
+bun run sample
+
+# 任意のTypeScriptファイルを直接実行
+bun run src/filename.ts
+```
+
+### 開発
+```bash
+# 依存関係のインストール
+bun install
+
+# 型チェック（TypeScriptは設定済みだが明示的なチェックコマンドはない）
+bun tsc --noEmit
+```
+
+## Default to using Bun instead of Node.js.
 
 - Use `bun <file>` instead of `node <file>` or `ts-node <file>`
 - Use `bun test` instead of `jest` or `vitest`
@@ -24,4 +49,3 @@ import { test, expect } from "bun:test";
 test("hello world", () => {
   expect(1).toBe(1);
 });
-```
