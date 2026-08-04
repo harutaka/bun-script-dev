@@ -612,9 +612,3 @@ await $`git ls-remote origin ${branch}`;
 ```
 
 **推奨事項** — すべての言語でのベストプラクティスと同様に、外部コマンドに引数として渡す前に、常にユーザー提供の入力をサニタイズしてください。引数を検証する責任はアプリケーションコードにあります。
-
----
-
-## クレジット
-
-このAPIの大部分は、[zx](https://github.com/google/zx)、[dax](https://github.com/dsherret/dax)、[bnx](https://github.com/wobsoriano/bnx)に触発されました。これらのプロジェクトの作者に感謝します。

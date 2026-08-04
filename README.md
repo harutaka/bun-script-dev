@@ -1,1 +1,3 @@
 # bun-script-dev
+
+これはTypeScriptでシェルスクリプトを書くためのBun開発環境です。このプロジェクトはBunのShell APIを使用して、外部依存関係なしにWindows、Linux、macOSで動作するクロスプラットフォームのシェルスクリプトを作成します。
