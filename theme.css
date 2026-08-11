@@ -1,0 +1,4 @@
+/* サイドバーのOpen in Chatの表示を消す */
+[data-blume-page-actions] > details:has(a[data-open-in]) {
+  display: none;
+}

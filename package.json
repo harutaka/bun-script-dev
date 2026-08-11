@@ -4,7 +4,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "sample": "bun run src/sample.ts"
+    "sample": "bun run src/sample.ts",
+    "dev": "blume dev",
+    "build": "blume build"
+  },
+  "dependencies": {
+    "blume": "^1.4.2"
   },
   "devDependencies": {
     "@types/bun": "latest"
