@@ -6,6 +6,7 @@ export default defineConfig({
   feedback: false,
 
   deployment: {
+    site: "https://harutaka.github.io",
     base: "/bun-script-dev",
   },
 
